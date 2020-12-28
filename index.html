@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="datepicker.css" />
+  <title>Rabbanni Overseas Aviation</title>
+</head>
+<body>
+<!-- Navigation -->
+  <nav class="navbar navbar-dark navbar-expand-lg py-3 fixed-top">
+    <div class="container">
+    <a href="#showcase" class="navbar-brand">
+      <img src="img/mlogo.png" class="img-fluid" width="50" height="50" alt="logo">
+      <h3 class="d-inline align-middle" style="font-size: 20px;">Rabbani Oversea Aviation</h3>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#showcase">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Flight Info
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn btn-outline-danger ml-2" data-toggle="modal" data-target="#loginModal">Sign up</button>
+    <button class="btn btn-outline-danger ml-2" data-toggle="modal" data-target="#loginModal">Login</button>
+  </div>
+  </nav>
+
+<!-- Login_Modal Start -->
+<div class="modal" id="loginModal">
+    <div class="container">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #040E27;">
+                <div class="modal-header">
+                    <h3 class="text-light">Login</h3>
+                    <button class="close text-light" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body text-light">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" class="form-control" name="Pass">
+                        </div>
+                        <input type="submit" name="send" value="Send" class="btn btn-outline-warning px-4">
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- Login_Modal End -->
+
+<!-- Carousel Slider -->
+<section id="showcase" class="bg-dark text-light">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-img-1 active">
+                <div class="container">
+                    <div class="carousel-caption mb-5 pb-5">
+                        <h2 class="display-4">Travels</h2>
+                        <p class="lead pb-3">Pixel perfect design with awesome contents</p>
+                        <a href="#" class="btn btn-primary">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-img-2">
+                <div class="container">
+                    <div class="carousel-caption mb-5 pb-5">
+                        <h2 class="display-4">Travels</h2>
+                        <p class="lead pb-3">Pixel perfect design with awesome contents</p>
+                        <a href="#" class="btn btn-danger">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-img-3">
+                <div class="container">
+                    <div class="carousel-caption mb-5 pb-5">
+                        <h2 class="display-4">Travels<h2>
+                        <p class="lead pb-3">Pixel perfect design with awesome contents</p>
+                        <a href="#" class="btn btn-info">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+            <i class="carousel-control-prev-icon p-3"></i>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+            <i class="carousel-control-next-icon p-3"></i>
+        </a>
+    </div>
+</section>
+<marquee behavior="" direction=""><h3 class="text-danger my-0" style="font-family: Cooper Black;">Welcome to Rabbani Overseas Aviation</h3></marquee>
+
+<!-- Ticket Box start here -->
+<section id="ticketBox" class="bg-info py-5">
+  <div class="ticket">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 bg-light py-2">
+          <div class="d-flex flex-row">
+              <span>
+                <i class=""></i>
+                <p class="text-danger mb-0 d-none d-sm-block">IMPORTENT:</p>
+              </span>
+              <p class="ml-2 mb-0">Urgent and Important Notice for DXB/AUH flights <a href="#" class="text-danger ml-3">Click Here</a></p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-xl-12 bg-dark mt-2">
+            <div class="d-flex flex-row">
+              <ul class="d-flex mb-0 py-2">
+                <li  class="">
+                  <i class=""></i>
+                  <a class="px-4 text-light d-none d-md-block" href="#">FLIGHTS</a>
+                </li>
+                <li  class="">
+                  <i class=""></i>
+                  <a class="px-4 text-light d-none d-md-block" href="#">MANAGE BOOKING</a>
+                </li>
+                <li  class="">
+                  <i class=""></i>
+                  <a class="px-4 text-light d-none d-md-block" href="#">FLIGHT STATUS</a>
+                </li>
+                <li  class="">
+                  <i class=""></i>
+                  <a class="px-4 text-light d-none d-md-block" href="#">HOLIDAYS</a>
+                </li> 
+              </ul>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-12 bg-light py-3">
+          <div class="d-flex flex-row">
+              <form action="" class="d-flex row">
+                    <div class="col-md-6 col-lg-2 mb-2 pr-0">
+                      <div class="form-group mr-2 mb-0">
+                      <input class="form-control form-control-lg" type="text" placeholder="Flight From Airport">
+                    </div>
+                    </div>
+                  <div class="col-md-6 col-lg-2 mb-2 pr-0">
+                    <div class="form-group mr-2 mb-0">
+                      <input class="form-control form-control-lg" type="text" placeholder="Flight From Airport">
+                  </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2 mb-2 pr-0">
+                      <div class="form-group mr-2 mb-0">
+                        <div class="input-group" id="datetimepicker">
+                          <input class="form-control form-control-lg" type="date">
+                          <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-calender"></span>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2 mb-2 pr-0">
+                    <div class="form-group mr-2 mb-0">
+                      <div class="input-group" id="datetimepicker">
+                        <input class="form-control form-control-lg" type="date">
+                        <div class="input-group-addon">
+                          <span class="glyphicon glyphicon-calender"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2 mb-2 pr-0">
+                    <div class="form-group mr-2 mb-0">
+                      <select name="" id="" class="py-2 form-control form-control-lg">
+                        <option value="0">Travel type</option>
+                        <option value="1">Some Option</option>
+                        <option value="2">Another Option</option>
+                        <option value="4">Others</option>
+                      </select> 
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-2">
+                    <button class="btn btn-outline-info btn-block py-2">
+                      <a href="#" class="">Search</a>
+                    </button>
+                  </div>
+              </form>
+          </div>
+      </div>
+      <div class="col-md-12  col-lg-12 bg-dark text-light py-2">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex flex-row">
+              <form action="">
+                <input type="checkbox" name="a"><span class="p-3">Onway Trip</span>
+                <input type="checkbox" name="b"><span class="p-3">Round Trip</span>
+                <input type="checkbox" name="c"><span class="p-3">Multi City</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News and Events -->
+<section  id="news_event" class="py-5 bg-light">
+    <div class="container">
+        <div class="main-title text-center">
+            <span class="mb-4">
+                <em></em>
+            </span>
+            <h2>News and Events</h2>
+            <p class="lead">Check for Biman Bangladesh news and updates</p>
+        </div>
+        <div id="news-content">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <a class="box_news" href="#" title="Registration for RUH-DAC Evacuation Flight 24 September 2020">
+                    <figure>
+                        <img src="img/default-image-small.jpg" class="img-fluid rounded" style="width:100%" alt="">
+                        <figcaption><strong>19</strong>Sep</figcaption>
+                    </figure>
+                    <ul>
+                        <li>Registration for RUH-DAC Evacuation Flight 24 September 2020</li>
+                        <li>19 Sep 2020</li>
+                    </ul>
+                    <p style="text-align:justify">আটকে পড়া প্রবাসীদের ফিরিয়ে আনতে আগামী ২৪ 
+                    সেপ্টেম্বর বিমান রিয়াদ থেকে ঢাকা বিশেষ ফ্লাইট পরিচালনা করবে।আগ্রহী 
+                    যাত্রীদের নিচের লিংকে নাম রেজিষ্ট্রেশন করার জন্য অনুরোধ করা যা...</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <a class="box_news" href="https://www.biman-airlines.com/news/details/150" title="Registration for Jeddah- Dhaka 26 September">
+                    <figure>
+                        <img src="img/default-image-small.jpg" style="width:100%" alt="">
+                        <figcaption><strong>19</strong>Sep</figcaption>
+                    </figure>
+                    <ul>
+                        <li>Registration for Jeddah- Dhaka 26 September</li>
+                        <li>19 Sep 2020</li>
+                    </ul>
+                    <p style="text-align:justify">আটকেপড়া প্রবাসীদের ফিরিয়ে আনতে আগামী ২৬ সেপ্টেম্বর বিমান জেদ্দা থেকে ঢাকা বিশেষ ফ্লাইট পরিচালনা করবে।
+                    আগ্রহী যাত্রীদের নিচের লিংকে নাম রেজিষ্ট্রেশন করার জন্য অ...</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <a class="box_news" href="#" title="প্রেস রিলিজ">
+                    <figure>
+                        <img src="img/default-image-small.jpg" style="width:100%" alt="">
+                        <figcaption><strong>17</strong>Sep</figcaption>
+                    </figure>
+                    <ul>
+                        <li>প্রেস রিলিজ</li>
+                        <li>17 Sep 2020</li>
+                    </ul>
+                    <p style="text-align:justify">প্রেস রিলিজ
+                    বিমান বাংলাদেশ এয়ারলাইন্স
+                    ঢাকা, ১৭ সেপ্টেম্বর ২০২০
+                    সৌদি আরবগামী যাত্রীদের সদয় অবগতির জন্য জানানো যাচ্ছে যে, সৌদি আরব কর্তৃপক্ষ শর্ত সাপেক্ষে সে দেশের বা...</p>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                     <a class="box_news" href="#" title="Biman Resuming Schedule Commercial Flights To/From KSA points within short time after getting GACA Approval">
+                    <figure>
+                        <img src="img/default-image-small.jpg" style="width:100%" alt="">
+                        <figcaption><strong>16</strong>Sep</figcaption>
+                    </figure>
+                    <ul>
+                        <li>Biman Resuming Schedule Commercial Flights To/From KSA points within short time after getting GACA Approval </li>
+                        <li>16 Sep 2020</li>
+                    </ul>
+                    <p style="text-align:justify">Biman Resuming Schedule Commercial Flights To/From KSA points as under:</p>
+                    </a>
+                    </div>
+                </div>
+                <p class="btn_home_align text-center mt-4"><a href="#" class="btn btn-danger">View all news</a></p>
+        </div>
+</div>
+</section>
+
+<!-- visa_prossesing_area_start  -->
+<section id="visa-prosses">
+   <div class="visa_prossesing_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section_title text-center">
+                        <h3 class="mb-2">Visa Prossesing</h3>
+                        <p class="mb-5">Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit hella wolf moon beard words.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">Italy <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-warning mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">Brazil <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-primary mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">America <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-danger mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">Nepal <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-info mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">Maldives <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-danger mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_prosses">
+                        <div class="thumb">
+                            <img src="img/visaprossesing/6.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="d-flex align-items-center">Indonesia <a href="#">&#2547; 2500,00</a> </p>
+                            <a href="#" class="btn btn-outline-light mt-3">Add to card</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+</section>
+
+<!-- testimonial_area  -->
+<section id="testimonial_area" class="text-center">
+   <div id="testCarusel" class="testimonial_area carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators pb-5 mb-5">
+            <li data-slide-to="0" data-target="#testCarusel" class="active"></li>
+            <li data-slide-to="1" data-target="#testCarusel"></li>
+            <li data-slide-to="2" data-target="#testCarusel"></li>
+        </ol>
+     <div class="carousel-inner">
+       <div class="carousel-item active owl-carousel">
+         <div class="single_carousel">
+           <div class="container">
+             <div class="carousel-caption pb-0">
+               <div class="single_testmonial text-center">
+                  <div class="author_thumb">
+                     <img src="img/testmonial/author.png" alt="">
+                  </div>
+                  <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                  <div class="testmonial_author">
+                      <h3>- Micky Mouse</h3>
+                  </div>
+                </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item owl-carousel">
+         <div class="single_carousel">
+           <div class="container">
+             <div class="carousel-caption pb-0">
+               <div class="single_testmonial text-center">
+                  <div class="author_thumb">
+                     <img src="img/testmonial/author.png" alt="">
+                  </div>
+                  <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                  <div class="testmonial_author">
+                      <h3>- Micky Mouse</h3>
+                  </div>
+                </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item owl-carousel">
+         <div class="single_carousel">
+           <div class="container">
+             <div class="carousel-caption pb-0">
+               <div class="single_testmonial text-center">
+                  <div class="author_thumb">
+                     <img src="img/testmonial/author.png" alt="">
+                  </div>
+                  <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                  <div class="testmonial_author">
+                      <h3>- Micky Mouse</h3>
+                  </div>
+                </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+</section>
+<!-- /testimonial_area  -->
+
+<!-- Recent Trips Start Here -->
+<section id="recent-trip">
+    <div class="recent_trip_area py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb_70">
+                        <h3 class="mb-4">Recent Trips</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_trip">
+                        <div class="thumb">
+                            <img src="img/trip/1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="date">
+                                <span>Oct 12, 2019</span>
+                            </div>
+                            <a href="#">
+                                <h3>Journeys Are Best Measured In
+                                    New Friends</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_trip">
+                        <div class="thumb">
+                            <img src="img/trip/2.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="date">
+                                <span>Oct 12, 2019</span>
+                            </div>
+                            <a href="#">
+                                <h3>Journeys Are Best Measured In
+                                    New Friends</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_trip">
+                        <div class="thumb">
+                            <img src="img/trip/3.png" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="date">
+                                <span>Oct 12, 2019</span>
+                            </div>
+                            <a href="#">
+                                <h3>Journeys Are Best Measured In
+                                    New Friends</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Recent trips End -->
+
+<!-- Footer Area Start Here -->   
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4 ">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#" style="text-decoration: none;">
+                                    <img src="img/mlogo.png" alt="logo" width="60" height="60" class="m-0 p-0">
+                                    <h5 class="d-inline text-light">Rabbani Overseas Aviation</h5>
+                                </a>
+                            </div>
+                            <p>5th flora, 700/D kings road, green <br> lane New York-1782 <br>
+                                <a href="#">+10 367 826 2567</a> <br>
+                                <a href="#">contact@carpenter.com</a>
+                            </p>
+                            <div class="socail_links">
+                                <ul class="pl-0">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Company
+                            </h3>
+                            <ul class="links pl-0">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#"> Gallery</a></li>
+                                <li><a href="#"> Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Popular destination
+                            </h3>
+                            <ul class="links double_links pl-0">
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">America</a></li>
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">Switzerland</a></li>
+                                <li><a href="#">Italy</a></li>
+                                <li><a href="#">Canada</a></li>
+                                <li><a href="#">Franch</a></li>
+                                <li><a href="#">England</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Instagram
+                            </h3>
+                            <div class="instagram_feed">
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/5.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="#">
+                                        <img src="img/instagram/6.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Last Footer -->
+        <div class="copy-right_text text-center">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h2 class="text-light">Rabbani Overseas Aviation</h2>
+                        <p class="copy_right">
+                            Copyright &copy;2020 by<a href="#" target="_blank"> MD ABDULLAH</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- Footer Area End -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="moment.js"></script>
+<script src="datepicker.js"></script>
+
+<script type="text/javascript">
+        $('#picker').datetimepicker({
+           timepicker: false,
+           datepicker: true,
+           formet: 'Y-m-d',
+           value: '2019-9-2', 
+           weeks: true
+        });
+    </script>
+</body>
+</html>
