@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+::placeholder {
+    font-family: Montserrat;
+    font-size: 0.9rem !important;
+}
+
+body {
+
+    font-family: Montserrat;
+    margin: 0;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    width: 100%;
+    height: 590px;
+    position: absolute;
+    background-image: url('../images/bgimg1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+/* main::before{
+    content: "";
+    background-image: url(./images/abs1.png);
+    width: 2677.028px;
+    height: 828.778px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-158.954deg);
+} */
+
+/* section 1 .header start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4.5em;
+    padding-block-start: 1.2em;
+}
+
+.header a img {
+    width: 180px;
+}
+
+.header-link {
+    display: inline-flex;
+    gap: 0.75em;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #28867E;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+    /* 120% */
+}
+
+/* section 1 .header end */
+
+
+/* section 2 .hero start */
+.hero {
+    padding-inline: 4.5em;
+    margin: 1.2em 0 2.2em;
+    /* height: 72vh !important; */
+    margin-block: 2.9em;
+    /* background-color: white !important; */
+}
+
+.hero>h2 {
+    color: #000;
+    font-size: 20px;
+    /* 2rem */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+@media(max-width:768px) {
+
+    .l-panel>h2 {
+        font-size: 16px !important;
+    }
+
+    .l-panel h2 span {
+        font-size: 16px !important;
+    }
+
+    .l-panel {
+        padding: 1.5em 1em !important;
+    }
+
+    .hero {
+
+        /* height: 72vh !important; */
+        margin-block: 1em;
+        /* background-color: white !important; */
+    }
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1.3em;
+}
+
+.hero-content>div {
+    width: 48.5%;
+    height: 380.719px;
+    /* for keeping both panels of same height */
+
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.06));
+}
+
+.hero-content div h2 {
+    /* color: red !important; */
+}
+
+.r-panel {
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 2px 10px;
+
+}
+
+.l-panel {
+    padding: 1.5em 2em;
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 2px 10px;
+}
+
+.l-panel>h2 {
+    color: #28867E;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 1.5625rem;
+    /* 96.154% */
+}
+
+.l-panel h2 span {
+
+
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 25px;
+
+}
+
+.l-panel>h2>.description {
+    font-weight: 500;
+}
+
+.l-panel>.l-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(204, 20, 20, 0.07);
+    margin-block: 1em;
+}
+
+.r-form {
+    padding: 1em 1.5em;
+    width: 100%;
+
+}
+
+.r-form>form {
+    padding: 1.2em 1.5em;
+    border-radius: 10px;
+    background-color: #F8FAFB;
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.55em;
+    row-gap: 0.65em;
+}
+
+.r-form>.form-1>input {
+    width: 48.5%;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    padding-left: 1em;
+}
+
+
+.r-form>.form-1>input:nth-child(9) {
+    width: 100%;
+}
+
+.r-form>.form-1>input[type='submit'] {
+    /* border-radius: 15px; */
+    background: #34A9A0;
+    margin-top: 0.45em;
+    margin-inline-start: auto;
+    padding-left: 0;
+    font-family: Montserrat;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.1875rem;
+    /* 175% */
+}
+
+.r-form>form>input::placeholder {
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    /* 205.882% */
+}
+
+
+
+
+/* section 2 .hero end */
+
+
+/* section 2 footer start */
+footer {
+    font-family: Montserrat;
+    background: #ECF4F5;
+    width: 100%;
+    padding-inline: 4.5em;
+    height: 65px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0; 
+}
+
+footer h2 {
+    color: #000;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer h2 a {
+    text-decoration: none;
+    color: #000;
+    height: 65px;
+}
+
+/* section 2 footer end */
+
+
+@media(max-width:992px) {
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-content>div {
+        width: 100%;
+    }
+
+    .hero-content>div {
+        height: fit-content !important;
+    }
+
+    .r-panel {
+        margin-top: 1.5em;
+    }
+
+    .header a img {
+        width: clamp(150px, 30vw, 356px) !important;
+    }
+
+    footer h2 {
+        font-size: 0.6rem !important;
+    }
+}
+
+@media(max-width:576px) {
+
+    .header,
+    .hero,
+    footer {
+        padding-inline: clamp(1em, 1vw, 4.5em) !important;
+    }
+
+    .header {
+        padding-block-start: 1.5em;
+    }
+
+    .header-link a {
+        font-size: clamp(1rem, 4vw, 1.5625rem) !important;
+    }
+
+    .hero {
+        margin-bottom: 2em;
+    }
+
+    .hero>h2 {
+        font-size: clamp(1.25rem, 1.8vw, 2rem);
+    }
+
+    .l-panel>h2 {
+        font-size: clamp(1.2rem, 1.9vw, 1.625rem);
+    }
+
+    .r-form>.form-1>input {
+        width: 100%;
+    }
+
+    .r-form {
+        padding: 1em;
+    }
+
+    .r-form>form {
+        padding: 1em 0.75em;
+    }
+
+    footer h2 {
+        font-size: clamp(0.6rem, 1.5vw, 1.25rem) !important;
+    }
+
+}
+input{
+    outline: none;
+    border:1px solid transparent !important
+  }
+  input:focus{
+    border: 1px  solid gray !important;
+  }
