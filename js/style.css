@@ -158,7 +158,7 @@ body {
   font-family: Montserrat;
   margin: 0;
 
-  /* background-image: url(./images/abs1.png);
+  /* background-image: url(./img/abs1.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover; */
@@ -180,7 +180,7 @@ main::before {
   height: 622px;
   /* height: calc(100dvh - 50px); */
   position: absolute;
-  background-image: url('../images/bgimg1.png');
+  background-image: url('../img/bgimg1.png');
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
@@ -462,7 +462,7 @@ footer {
   background: #ECF4F5;
   width: 100%;
   padding-inline: 4.5em;
-  height: 65px;
+  height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -471,7 +471,7 @@ footer {
 footer h2 {
   color: #000;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

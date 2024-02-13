@@ -35,7 +35,7 @@ body {
     font-family: Montserrat;
     margin: 0;
 
-    /* background-image: url(./images/abs1.png);
+    /* background-image: url(./img/abs1.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover; */
@@ -50,12 +50,12 @@ main {
     content: "";
     width: 100%;
     /* height: calc(100dvh - 50px); */
-    background-image: url('../images/bgimg1.png');
+    background-image: url('../img/bgimg1.png');
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
     z-index: -1;
-
+	height: 100vh;
 }
 
 /* section 1 .header start */
@@ -100,9 +100,8 @@ main {
     /* justify-content: space-between; */
     /* align-items: center; */
     /* max-width: 50%; */
-    margin: 0px 50px;
-    /* width: 80% !important; */
-    padding-bottom: 16px;
+    /* width: 100% !important; */
+	padding-inline: 3.3em;
 }
 
 
@@ -403,7 +402,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin: 28px 0px;
+    margin: 37px 0px;
 }
 
 .loginBtn {
@@ -446,13 +445,13 @@ a {
 
 /* section footer start */
 footer {
-    /* position: fixed;
-    bottom: 0; */ 
+    position: fixed;
+    bottom: 0; 
 
     background: #ECF4F5;
     width: 100%;
     padding-inline: 4.5em;
-    height: 65px;
+    height: 45px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -463,7 +462,7 @@ footer h2 {
 
     font-family: Montserrat;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -493,7 +492,7 @@ footer h2 a {
 /* section footer end */
 @media (min-width: 992px) {
     .topHeading h2 {
-        font-size: 21.1px
+        font-size: 24.6px;
     }
     .r-form > h2 {
         font-size: 21.1px
@@ -578,11 +577,3 @@ footer h2 a {
 
 }
 
-@media (min-width: 2100px) {
-  
-}
-
-@media (min-width: 2350px) {
-
-
-}

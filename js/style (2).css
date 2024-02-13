@@ -5,6 +5,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+
 }
 
 .header a img {
@@ -21,13 +22,17 @@
 .left {
   flex: 1;
   /* width: 50%; */
-  padding-right: 3rem;
+  padding-right: 2rem;
+  width: 50%;
+margin-bottom: 10px;
 }
 
 .right {
   flex: 1;
-  padding-right: 1rem;
+  padding-right: 0px;
   padding-top: 1.7rem;
+  width: 50%;
+margin-bottom: 10px;
 }
 
 .card img {
@@ -59,7 +64,7 @@
   position: relative;
   /* justify-content: end; */
   align-items: center;
-
+  height: 300px;
 }
 
 .right-cards {
@@ -189,7 +194,7 @@ body {
   font-family: Montserrat;
   margin: 0;
 
-  /* background-image: url(./images/abs1.png);
+  /* background-image: url(./img/abs1.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover; */
@@ -208,13 +213,12 @@ main {
 .main {
   content: "";
   width: 100%;
-  background-image: url('../images/bgimg1.png');
+  background-image: url('../img/bgimg1.png');
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
   z-index: -1;
-  height: 100%;
-  padding-bottom: 15px;
+  height:85vh;
 }
 
 /* section 1 .header start */
@@ -465,7 +469,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 47px;
+  margin-top: 110px;
   width: 99%;
 }
 
@@ -552,7 +556,7 @@ footer h2 a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 1.5rem;
+  padding-top: 1.3rem;
 }
 
 .heading {
@@ -690,19 +694,19 @@ footer h2 a {
   background: #ECF4F5;
   text-align: center;
   padding-inline: 4.5em;
-  height: 50px;
+  height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-   position: fixed;
-    bottom: 0; 
+  position: fixed;
+  bottom: 0;
 }
 
 .foText {
   color: #000;
   text-align: center;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -813,14 +817,11 @@ input:focus{
   .hImage img {
     width: 100%;
   }
-  .teamimage .hImage img {
-    width: 78px;
-  }
   .btnBox {
-    margin-top: 90px;
+    margin-top: 39px;
   }
   .crd{
-    height: 333px;
+    height: 290px;
   }
   .img1 img, .img3 img {
    
@@ -841,11 +842,11 @@ input:focus{
     font-size: 12px; 
   }
   .topHeading h2 {
-    font-size: 20px;
+    font-size: 22.1px;
   }
   .heading {
     font-size: 12px;
-    height: 10%;
+    height: 5%;
   }
   .left {
     padding-right: 20px;
@@ -880,16 +881,20 @@ input:focus{
   }
   .left {
     padding-right: 2rem;
+    width: 50%;
+  }
+  .right {
+    width: 50%;
   }
   .teamimage .hImage img {
     width: 82%;
     height: 100%;
   }
   .btnBox {
-    margin-top: 63px;
+    margin-top: 46px;
   }
-  .crd{
-    height: 316px;
+  .crd {
+    height: 290px;
   }
   .img1 img, .img3 img {
     width: 100%;
@@ -906,7 +911,7 @@ input:focus{
     font-size: 14px; 
   }
   .topHeading h2 {
-    font-size: 25px;
+    font-size: 24.2px;
   }
   .heading {
     font-size: 15px;
@@ -926,42 +931,6 @@ input:focus{
   }
 }
 
-@media (min-width: 1340px) {
-  .hImage img {
-    width: 100%;
-  }
-  .right-tittle P {
-    font-size: 16px; 
-  }
-  .topHeading h2 {
-    font-size: 26px;
-  }
-  .img2arrow {
-    margin-bottom: 100px;
-  }
-  
-  .btnBox {
-    margin-top: 58px;
-  }
-  .crd{
-    height: 298px;
-    padding: 0px 5px;
-  }
-  .img1 img, .img3 img {
-    width: 100%;
-  }
-  .paBtn {
-    width: 100px;
-  }
-  .purBtn {
-    width: 100px;
-  }
-  .heading {
-    font-size: 15px;
-    height: 5%;
-  }
-}
-
 @media (min-width: 1440px) {
   .hImage img {
     width: 100%;
@@ -971,7 +940,7 @@ input:focus{
     font-size: 16px; 
   }
   .topHeading h2 {
-    font-size: 2vw;
+    font-size: 27.7px;
   }
 
   .paBtn {
@@ -981,7 +950,7 @@ input:focus{
     width: 120px;
   }
   .btnBox {
-    margin-top: 40px;
+    margin-top: 53px;
   }
   .crd{
     height: 300px;
@@ -992,23 +961,6 @@ input:focus{
   .heading{
     font-size: 15px;
   }
-
-}
-
-@media (min-width: 1650px) {
-  .hImage img {
-    width: 100%;
-  }
-  .btnBox {
-    margin-top: 26px;
-  }
-  .crd{
-    height: 300px;
-  }
-  .img1 img, .img3 img {
-    width: 100%;
-  }
- 
 
 }
 
@@ -1025,7 +977,9 @@ input:focus{
   .img1 img, .img3 img {
     width: 100%;
   }
-  
+  .heading{
+    font-size: 15px;
+  }
 
 }
 
@@ -1042,7 +996,9 @@ input:focus{
   .img1 img, .img3 img {
     width: 100%;
   }
-  
+  .heading{
+    font-size: 15px;
+  }
   .crd {
     padding: 0px 8px;
   }
@@ -1050,7 +1006,7 @@ input:focus{
 
 @media (min-width: 2350px) {
   .crd{
-    height: 364px;
+    height: 383px;
   }
   .hImage img {
     width: 100%;
@@ -1061,8 +1017,12 @@ input:focus{
   .img1 img, .img3 img {
     width: 100%;
   }
-  
-
+  .heading{
+    font-size: 18px;
+  }
+.sub {
+    font-size: 14px;
+}
 
 }
 

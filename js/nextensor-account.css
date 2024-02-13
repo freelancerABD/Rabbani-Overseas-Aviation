@@ -29,9 +29,9 @@ body {
 main::before {
     content: "";
     width: 100%;
-    height: 590px;
+    height: 592px;
     position: absolute;
-    background-image: url('../images/bgimg1.png');
+    background-image: url('../img/bgimg1.png');
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
@@ -41,7 +41,7 @@ main::before {
 
 /* main::before{
     content: "";
-    background-image: url(./images/abs1.png);
+    background-image: url(./img/abs1.png);
     width: 2677.028px;
     height: 828.778px;
     content: "";
@@ -90,7 +90,7 @@ main::before {
     padding-inline: 4.5em;
     margin: 1.2em 0 2.2em;
     /* height: 72vh !important; */
-    margin-block: 2.9em;
+    margin-block: 1.9em;
     /* background-color: white !important; */
 }
 
@@ -264,7 +264,7 @@ footer {
     background: #ECF4F5;
     width: 100%;
     padding-inline: 4.5em;
-    height: 65px;
+    height: 45px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -275,7 +275,7 @@ footer {
 footer h2 {
     color: #000;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -284,7 +284,7 @@ footer h2 {
 footer h2 a {
     text-decoration: none;
     color: #000;
-    height: 65px;
+    height: 50px;
 }
 
 /* section 2 footer end */
