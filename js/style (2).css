@@ -779,7 +779,7 @@ input:focus{
   }
   .topHeading h2 {
     font-size: 22px;
-  letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
   }
 }
 @media(min-width:1300px) and (max-width:1400px) {
@@ -796,8 +796,7 @@ input:focus{
     margin-top: 13px;
   }
   .topHeading h2 {
-   font-size: 28px;
-  letter-spacing: 0.5px;
+   font-size: 29px;
   }
 }
 @media(min-width:1650px) and (max-width:1920px) {
@@ -805,8 +804,7 @@ input:focus{
     margin-top: 5px;
   }
   .topHeading h2 {
-    font-size: 32px;
-    letter-spacing: 0.5px;
+    font-size: 33px;
   }
 }
 
