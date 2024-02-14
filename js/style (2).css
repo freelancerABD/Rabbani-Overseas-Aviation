@@ -911,7 +911,7 @@ input:focus{
     font-size: 14px; 
   }
   .topHeading h2 {
-    font-size: 24.2px;
+    font-size: 26.2px;
   }
   .heading {
     font-size: 15px;
@@ -940,7 +940,7 @@ input:focus{
     font-size: 16px; 
   }
   .topHeading h2 {
-    font-size: 27.7px;
+    font-size: 2vw;
   }
 
   .paBtn {
