@@ -20,19 +20,16 @@
 }
 
 .left {
-  flex: 1;
-  /* width: 50%; */
   padding-right: 2rem;
   width: 50%;
 margin-bottom: 10px;
 }
 
 .right {
-  flex: 1;
   padding-right: 0px;
   padding-top: 1.7rem;
   width: 50%;
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .card img {
@@ -451,13 +448,16 @@ main {
   /* background-color: rebeccapurple; */
   display: flex;
   align-items: end;
-  margin-bottom: 100px;
+  margin-bottom: 155px;
 }
 
 .imageGroup div p {
   font-weight: 500 !important;
   text-align: center;
   font-size: 16px;
+  line-height: 20px;
+  height: 132px;
+  overflow: hidden;
 }
 
 a {
@@ -469,8 +469,8 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  margin-top: 110px;
-  width: 99%;
+  margin-top: 67px;
+  width: 100%;
 }
 
 .loginBtn {
@@ -567,9 +567,9 @@ footer h2 a {
   font-weight: 700;
   line-height: normal;
   margin-block: .5rem;
-  text-wrap: nowrap;
+/*   text-wrap: nowrap; */
   /* 363.158% */
-
+  height: 30px;
 }
 
 .hImage2 {
@@ -613,14 +613,14 @@ footer h2 a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  /* height: 100px !important; */
+  height: 100px !important;
   /* 153.846% */
 }
 
 .pr {
 
-  position: absolute;
-  bottom: 1px;
+  /* position: absolute;
+  bottom: 1px; */
 }
 
 .puPrice {
@@ -630,7 +630,6 @@ footer h2 a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 25px;
   text-align: start;
 
   /* 150% */
@@ -639,11 +638,9 @@ footer h2 a {
 .puPrice2 {
   color: #8E8E8E;
   font-family: Montserrat;
-  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 45px;
   text-align: start;
 
   /* 150% */
@@ -740,10 +737,80 @@ input:focus{
 
 .crd{
   width: 100%;
-  height: 326px;
-  position: relative;
+/*   height: 326px;
+  position: relative; */
   padding: 0px 8px;
 }
+
+@media(min-width:768px) and (max-width:991px) {
+  .btnBox{
+    margin-top: 36px;
+  }
+  .loginBtn {
+    font-size: 12px;
+  }
+  .createBtn {
+    font-size: 12px;
+  }
+  .topHeading h2 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+  }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+  .btnBox{
+    margin-top: 26px;
+  }
+  .loginBtn {
+    font-size: 12px;
+  }
+  .createBtn {
+    font-size: 12px;
+  }
+  .topHeading h2 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+  }
+}
+@media(min-width:1200px) and (max-width:1299px) {
+  .btnBox{
+    margin-top: 16px;
+  }
+  .topHeading h2 {
+    font-size: 22px;
+  letter-spacing: 0.5px;
+  }
+}
+@media(min-width:1300px) and (max-width:1400px) {
+  .btnBox{
+    margin-top: 13px;
+  }
+  .topHeading h2 {
+   font-size: 25px;
+  letter-spacing: 0.2px;
+  }
+}
+@media(min-width:1440px) and (max-width:1649px) {
+  .btnBox{
+    margin-top: 13px;
+  }
+  .topHeading h2 {
+   font-size: 28px;
+  letter-spacing: 0.5px;
+  }
+}
+@media(min-width:1650px) and (max-width:1920px) {
+  .btnBox{
+    margin-top: 5px;
+  }
+  .topHeading h2 {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+  }
+}
+
+
 
 /* responsive   */
 /* @media (min-width: 376px) {
@@ -807,7 +874,7 @@ input:focus{
   }
 } */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .boxbtn p {
     font-size: 12px;
   }
@@ -894,7 +961,7 @@ input:focus{
     margin-top: 46px;
   }
   .crd {
-    height: 294px;
+    height: 293px;
   }
   .img1 img, .img3 img {
     width: 100%;
@@ -911,7 +978,7 @@ input:focus{
     font-size: 14px; 
   }
   .topHeading h2 {
-    font-size: 26.2px;
+    font-size: 24.2px;
   }
   .heading {
     font-size: 15px;
@@ -940,7 +1007,7 @@ input:focus{
     font-size: 16px; 
   }
   .topHeading h2 {
-    font-size: 2vw;
+    font-size: 27.7px;
   }
 
   .paBtn {
@@ -1024,6 +1091,6 @@ input:focus{
     font-size: 14px;
 }
 
-}
+} */
 
 
